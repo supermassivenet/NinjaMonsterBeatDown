@@ -1,4 +1,3 @@
-
  Ninja Monster Beat Down
  A web based game for jQuery and JavaScript
                                                            
@@ -43,8 +42,6 @@
   
  CHANGE LOG
 
- 09-03-2012 - Prototype created and tested
- 02-19-2014 - Instructions added
- 02-19-2014 - Alpha release packaged for Git
- 
- ============================================================= 
+ - 09-03-2012 : Prototype created and tested
+ - 02-19-2014 : Instructions added
+ - 02-19-2014 : Alpha release packaged for Git
