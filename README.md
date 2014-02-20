@@ -1,3 +1,5 @@
+![Blinky Ninja](http://supermassive.net/game/sprites/ninja.gif)
+
 # Ninja Monster Beat Down
 **A web based game for jQuery and JavaScript**
 
