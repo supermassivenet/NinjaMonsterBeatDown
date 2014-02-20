@@ -1,0 +1,112 @@
+body,p{
+	font-family:arial;
+	margin:0;
+	line-height:16px;
+	font-size:12px;
+}
+#gameboard{
+	width:500px;
+	height:500px;
+	background-color:#c94;
+	margin:10px auto 20px auto;
+	border:60px solid #632;
+	background-image:url('../sprites/stonetile.jpg');
+    background-size:100px 100px;
+}
+#player{
+	position:fixed;
+	width:50px;
+	height:50px;
+	margin:0;
+	z-index:500;
+	background-image:url('../sprites/ninja.gif');
+    background-size:50px 50px;
+}
+#zombie,#zombie2{
+	position:fixed;
+	width:50px;
+	height:50px;
+	margin:0;
+	z-index:100;
+	background-image:url('../sprites/zombie.gif');
+    background-size:50px 50px;
+}
+#skeleton,#skeleton2{
+	position:fixed;
+	width:50px;
+	height:50px;
+	margin:0;
+	z-index:100;
+	background-image:url('../sprites/skeleton_dance.gif'); 
+    background-size:50px 50px;
+}
+#banana{
+	position:fixed;
+	width:100px;
+	height:100px;
+	margin:0;
+	z-index:10;
+	background-image:url('../sprites/peanutbutterjellytime.gif');
+    background-size:100px 100px;
+}
+#shuriken{
+	position:fixed;
+	width:25px;
+	height:25px;
+	margin:0;
+	z-index:105;
+	background-image:url('../sprites/shuriken.gif');
+    background-size:25px 25px;
+	margin-top:5px;
+}
+
+#bang{
+	position:fixed;
+	width:25px;
+	height:0px;
+	margin:0;
+	z-index:500;
+	background-image:url('../sprites/bang.gif');
+    background-size:25px 25px;
+	/*display:none;*/
+}
+#bomb{
+	position:fixed;
+	width:25px;
+	height:25px;
+	margin:-100 0 0 -100;
+	z-index:200;
+	background-image:url('../sprites/bomb.gif');
+    background-size:25px 25px;
+	display:none;
+}
+
+#freeze{
+	position:fixed;
+	width:25px;
+	height:25px;
+	margin:-100 0 0 -100;
+	z-index:200;
+	background-image:url('../sprites/potion.gif');
+    background-size:25px 25px;
+	display:none;
+}
+#statusBox{
+	position:fixed;
+	bottom:0px;
+	left:5px;
+	width:200px;
+	height:200px;
+	background-color:#fff;
+	border:1px solid #bbb;
+    _position:absolute;
+    _top:expression(eval(document.documentElement.scrollTop+
+        (document.documentElement.clientHeight-this.offsetHeight)));
+	-moz-border-radius: 2px;
+	border-radius: 2px;	
+	display:block;
+	padding:2px;
+	opacity:0.9;
+	overflow:auto;
+	display:none;
+}
